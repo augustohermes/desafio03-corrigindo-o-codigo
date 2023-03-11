@@ -22,7 +22,15 @@ Essa aplicação realiza o CRUD (**C**reate, **R**ead, **U**pdate, **D**elete)
 
 A estrutura de um repositório ao ser criado é a seguinte:
 
-<img align="center" alt="Capa do desafio 3" width="90%" src="./.github/banner.png">
+```bash
+{
+  id: uuid(),
+  title,
+  url,
+  techs,
+  likes: 0
+}
+```
 
 Descrição de cada propriedade:
 
